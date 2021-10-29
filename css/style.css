@@ -1,0 +1,110 @@
+/* Navbar */
+.menu{
+    background-image: linear-gradient(to left, rgb(71,180,209) , rgb(77,190,222));
+}
+#logo{
+    width: 10%;
+}
+#navbarNav a{
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+#navbarNav a:hover{
+    color: rgb(244,47,44);
+}
+
+/* Home Section */
+#home{
+    margin-top: 74px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+#home p{
+    color: whitesmoke;
+}
+#home h1{
+    color: whitesmoke;
+    font-size: 50px;
+}
+.org-btn{
+    background-color:rgb(244,47,44);
+    border: 1px solid rgb(244,47,44);
+    /* border-color: rgb(255,102,0); */
+    color: whitesmoke;
+    font-size: 19px;
+    border-radius: 18px;
+    padding: 5px 22px;
+}
+.org-btn:hover{
+    background-color:rgba(244, 47, 44, 0);
+    color: rgb(244,47,44);
+}
+
+/* Categories */
+.card{
+    border:  none;
+    box-shadow: 5px 5px 5px 2px gray;
+}
+
+/* Food list */
+#food{
+    background-color: rgb(238, 228, 228);
+}
+.full-menu a{
+    text-decoration: none;
+    color: rgb(244,47,44);
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+/* Footer/Contact */
+footer{
+    background-color: rgb(51,54,71);
+    color: whitesmoke;
+}
+.a-c{
+    text-align: center;
+    margin: 30px 0px;
+}
+.social-media{
+    text-align: center;
+}
+#facebook,#linkedin,#twitter,#instagram,#github{
+    font-size: 23px;
+    color: rgb(244,246,248);
+    margin: 0 5px;
+}
+#facebook:hover,#linkedin:hover,#twitter:hover,#instagram:hover,#github:hover{
+    color:rgb(244,47,44);
+}
+
+/* Order page */
+.orderBg{
+    background-color: rgb(238,228,228);
+}
+.order-from{
+    background-color: #9ec677;
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.order-from img{
+    width: 100%;
+    border-radius: 8px;
+}
+fieldset{
+    border: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,93 @@
+/* Navbar */
+.menu{
+    background-color: rgb(244,47,44);
+}
+#logo{
+    width: 10%;
+}
+#navbarNav a{
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+#navbarNav a:hover{
+    color: rgb(77,190,222);
+}
+
+/* main content */
+.main-content{
+    background-color: rgba(145, 236, 236, 0.274);
+    margin-top: 75px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.col h2{
+    text-align: center;
+}
+.col p{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 5px 2px gray;
+}
+
+/* Table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(51,54,71);
+    color: rgb(244,246,248);
+}
+
+/* style for login */
+.loghp{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+    color: rgb(71,180,209);
+}
+.login{
+    width: 50%;
+    padding: 30px 40px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, rgb(71,180,209) , rgb(77,190,222));
+    color: white;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px gray;
+}
+.login input{
+    margin-bottom: 10px;
+    background-color: white;
+}
+.login p,label{
+    font-weight: bold;
+}
+.login button{
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(244,47,44);
+    border: 1px solid rgb(244,47,44);
+    font-weight: bold;
+}
+.login button:hover{
+    background-color: rgba(240, 181, 180, 0.15);
+    color: rgb(244,47,44);
+    border: 1px solid rgb(244,47,44);
+}
